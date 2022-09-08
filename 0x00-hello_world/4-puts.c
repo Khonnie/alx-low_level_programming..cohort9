@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * print_programming is like building a puzzle
+ * main_instruction - print Programming is like building a puzzle
  * return: 0
  */
 int main(void)
