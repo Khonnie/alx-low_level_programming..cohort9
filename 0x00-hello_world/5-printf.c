@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
+ *
  * main - Entry point
- * printf - prints output on screen
- * return: 0
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
