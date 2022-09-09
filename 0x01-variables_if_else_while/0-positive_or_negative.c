@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  * main - point of entry
- * Return : return one of the three success options
+ * 
+ * Return: return one of the three success options
  */
 int main(void)
 {
