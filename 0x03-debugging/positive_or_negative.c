@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
+#include "main.h"
 /* more headers goes there */
 /* betty style doc for function main goes there */
-int main(void)
+int positive_or_negative()
 
 {
 
@@ -14,7 +15,7 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-					putchar("%d\n", n);
+					printf("%d\n");
 
 					return (0);
 
