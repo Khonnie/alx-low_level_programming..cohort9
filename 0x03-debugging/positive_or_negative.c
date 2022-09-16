@@ -3,20 +3,18 @@
 #include "main.h"
 /* more headers goes there */
 /* betty style doc for function main goes there */
-int positive_or_negative()
+void positive_or_negative(int n)
 
 {
 
-		int n;
+		
 
 
 
-			srand(time(0));
+			
 
-				n = rand() - RAND_MAX / 2;
+					printf("%d is zero\n", n);
 
-					printf("%d\n");
-
-					return (0);
+					return;
 
 }
