@@ -9,28 +9,27 @@
 int main(void)
 {
 int i;
-char var = ' ';
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0)
 {
 printf("Fizz");
-printf("%c", var);
 }
 else if (i % 5 == 0)
 {
 printf("Buzz");
-printf("%c", var);
 }
 else if ((i % 3 == 0) && (i % 5 == 0))
 {
 printf("FizzBuzz");
-printf("%c", var);
 }
 else
 {
 printf("%d", i);
-printf("%c", var);
+}
+if (i != 100)
+{
+printf(" ");
 }
 }
 printf("\n");
