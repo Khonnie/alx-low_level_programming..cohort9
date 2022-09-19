@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *toi - Convert a string to integer.
+ *_atoi - Convert a string to integer.
  * @s: char array string
  * Description: Number in the string can be preceded by an infinite
  * number of characters.
